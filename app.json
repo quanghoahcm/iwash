@@ -1,0 +1,17 @@
+{
+    "addons": [
+        {
+            "plan": "Iwash-mssql-express"
+        }
+    ],
+    "buildpacks": [],
+    "env": {
+        "NODE_ENV": {
+            "description": "Run as a production environment on nodejs express",
+            "value": "production"
+        }
+    },
+    "formation": {},
+    "name": "iwash-backend",
+    "scripts": {}
+}
